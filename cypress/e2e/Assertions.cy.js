@@ -30,11 +30,12 @@ describe('Cypress Assertions',()=>{
             let actualname=x.text()
             //BDD
             expect(expectedname).to.equal(actualname)
-            ///for not equal --- to.equal(actualname)
+            ///for not equal --- to.not.equal(actualname)
 
             //TDD
             assert.equal(actualname,expectedname)
         })
     })
+    
 
 })
