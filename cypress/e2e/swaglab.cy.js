@@ -12,6 +12,7 @@ describe('swaglab test',function()
     cy.title().should('eq','Swag Labs')
     cy.xpath("//div[@class='inventory_item']").should('have.length',6)
     
+    
   })
 }
 )
