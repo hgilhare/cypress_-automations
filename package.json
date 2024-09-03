@@ -9,10 +9,12 @@
   "license": "UNLICENSED",
   "description": "",
   "dependencies": {
-    "cypress": "^13.11.0"
+    "cypress": "^13.11.0",
+    "mochawesome-report-generator": "^6.2.0"
   },
   "devDependencies": {
-    "cypress-xpath": "^2.0.1"
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "cypress-xpath": "^2.0.1",
+    "mocha": "^10.7.3"
   }
-  
 }
